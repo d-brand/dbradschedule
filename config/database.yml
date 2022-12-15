@@ -23,9 +23,9 @@ test:
 production:
   <<: *default
   database: <%= ENV['DATABASE_NAME'] %>
-   username: <%= ENV['DATABASE_USERNAME'] %>
-   password: <%= ENV['DATABASE_PASSWORD'] %>
-   host: <%= ENV['DATABASE_HOST'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: <%= ENV['DATABASE_HOST'] %>
   # adapter: postgresql
   # encoding: unicode
   # pool: 5
